@@ -2,6 +2,7 @@
   "name": "cra-template-react-dsgov-stn-typescript",
   "version": "0.2.0",
   "private": false,
+  "homepage": "/tiaw-obsiftm",
   "proxy": "https://obsiftm.midi.upt.iftm.edu.br",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

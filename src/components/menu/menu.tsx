@@ -1,10 +1,13 @@
 import { Menu as MenuGov } from "react-dsgov";
 
 export function Menu() {
+  const basePath = process.env.PUBLIC_URL ? process.env.PUBLIC_URL.replace(/\/$/, "") : "";
+  const withBase = (path: string) => `${basePath}${path}`;
+
   const menuData = [
     {
       label: "Página inicial",
-      link: "/",
+      link: withBase("/"),
       icon: "fas fa-home",
       divider: true,
     },
@@ -15,30 +18,30 @@ export function Menu() {
         {
           label: "Produção Bibliográfica",
           submenu: [
-            { label: "Consulta por Campus", link: "/indicadores/producao-bibliografica/consulta-por-campus" },
-            { label: "Consulta por Período", link: "/indicadores/producao-bibliografica/consulta-por-periodo" },
-            { label: "Consulta por Docente", link: "/indicadores/producao-bibliografica/consulta-por-docente" },
+            { label: "Consulta por Campus", link: withBase("/indicadores/producao-bibliografica/consulta-por-campus") },
+            { label: "Consulta por Período", link: withBase("/indicadores/producao-bibliografica/consulta-por-periodo") },
+            { label: "Consulta por Docente", link: withBase("/indicadores/producao-bibliografica/consulta-por-docente") },
           ]
         },
         {
           label: "Orientações",
           submenu: [
-            { label: "Consulta por Campus", link: "/indicadores/orientacoes/consulta-por-campus" },
-            { label: "Consulta por Período", link: "/indicadores/orientacoes/consulta-por-periodo" },
+            { label: "Consulta por Campus", link: withBase("/indicadores/orientacoes/consulta-por-campus") },
+            { label: "Consulta por Período", link: withBase("/indicadores/orientacoes/consulta-por-periodo") },
           ]
         },
         {
           label: "Inovação",
           submenu: [
-            { label: "Consulta por Campus", link: "/indicadores/inovacao/consulta-por-campus" },
-            { label: "Consulta por Período", link: "/indicadores/inovacao/consulta-por-periodo" },
+            { label: "Consulta por Campus", link: withBase("/indicadores/inovacao/consulta-por-campus") },
+            { label: "Consulta por Período", link: withBase("/indicadores/inovacao/consulta-por-periodo") },
           ]
         }
       ]
     },
     {
       label: "Sobre",
-      link: "/sobre",
+      link: withBase("/sobre"),
       icon: "fas fa-info-circle",
     },
   ];

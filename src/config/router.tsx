@@ -12,7 +12,13 @@ import {
   SearchByPeriodInnovation
 } from "../pages";
 
-const router = createBrowserRouter([
+const basename =
+  process.env.PUBLIC_URL && process.env.PUBLIC_URL !== "."
+    ? process.env.PUBLIC_URL
+    : undefined;
+
+const router = createBrowserRouter(
+  [
   {
     element: <Layout />,
     children: [
@@ -62,6 +68,8 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+],
+  { basename },
+);
 
 export default router;
