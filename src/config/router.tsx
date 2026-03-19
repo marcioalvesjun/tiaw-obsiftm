@@ -12,10 +12,11 @@ import {
   SearchByPeriodInnovation
 } from "../pages";
 
-const basename =
-  process.env.PUBLIC_URL && process.env.PUBLIC_URL !== "."
-    ? process.env.PUBLIC_URL
-    : undefined;
+const computedBasename = (() => {
+  if (typeof window === "undefined") return undefined;
+  const [first] = window.location.pathname.split("/").filter(Boolean);
+  return first ? `/${first}` : undefined;
+})();
 
 const router = createBrowserRouter(
   [
@@ -69,7 +70,7 @@ const router = createBrowserRouter(
     ],
   },
 ],
-  { basename },
+  { basename: computedBasename },
 );
 
 export default router;

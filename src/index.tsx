@@ -8,7 +8,17 @@ async function enableMocking() {
     return;
   }
   const { worker } = await import('./mocks/browser');
+
+  // In local dev, MSW service worker script must be served as JS.
+  // CRA's `homepage` can affect static serving; using a runtime base path keeps it stable.
+  const computedBasename = (() => {
+    if (typeof window === "undefined") return "";
+    const [first] = window.location.pathname.split("/").filter(Boolean);
+    return first ? `/${first}` : "";
+  })();
+  const swUrl = computedBasename ? `${computedBasename}/mockServiceWorker.js` : "/mockServiceWorker.js";
   return worker.start({
+    serviceWorker: { url: swUrl },
     onUnhandledRequest: 'bypass',
   });
 }

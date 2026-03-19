@@ -1,8 +1,13 @@
 import { Menu as MenuGov } from "react-dsgov";
 
 export function Menu() {
-  const basePath = process.env.PUBLIC_URL ? process.env.PUBLIC_URL.replace(/\/$/, "") : "";
-  const withBase = (path: string) => `${basePath}${path}`;
+  const computedBasename = (() => {
+    if (typeof window === "undefined") return "";
+    const [first] = window.location.pathname.split("/").filter(Boolean);
+    return first ? `/${first}` : "";
+  })();
+
+  const withBase = (path: string) => `${computedBasename}${path}`;
 
   const menuData = [
     {

@@ -2,7 +2,7 @@
   "name": "cra-template-react-dsgov-stn-typescript",
   "version": "0.2.0",
   "private": false,
-  "homepage": "/tiaw-obsiftm",
+  "homepage": ".",
   "proxy": "https://obsiftm.midi.upt.iftm.edu.br",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -28,6 +28,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -50,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "msw": "^2.12.13"
   },
   "msw": {
