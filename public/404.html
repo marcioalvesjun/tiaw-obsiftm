@@ -7,9 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Redirecionando...</title>
   <script>
-    // Redirect to the SPA entrypoint at the correct base path.
-    // %PUBLIC_URL% is replaced by CRA based on `homepage`.
-    window.location.replace("%PUBLIC_URL%/index.html");
+    (function () {
+      var segmentCount = 1;
+      var location = window.location;
+      var repoBase = location.pathname.split("/").slice(0, 1 + segmentCount).join("/");
+      var routePath = location.pathname
+        .split("/")
+        .slice(1 + segmentCount)
+        .join("/")
+        .replace(/&/g, "~and~");
+      var query = location.search
+        ? "&" + location.search.slice(1).replace(/&/g, "~and~")
+        : "";
+
+      location.replace(
+        location.protocol +
+          "//" +
+          location.hostname +
+          (location.port ? ":" + location.port : "") +
+          repoBase +
+          "/?/" +
+          routePath +
+          query +
+          location.hash
+      );
+    })();
   </script>
 </head>
 

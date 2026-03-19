@@ -24,6 +24,25 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     />
+    <script>
+      (function (location) {
+        if (location.search[1] === "/") {
+          var decoded = location.search
+            .slice(1)
+            .split("&")
+            .map(function (part) {
+              return part.replace(/~and~/g, "&");
+            })
+            .join("?");
+
+          window.history.replaceState(
+            null,
+            "",
+            location.pathname + decoded + location.hash
+          );
+        }
+      })(window.location);
+    </script>
   </head>
   <body>
     <noscript>Necessário habilitar o Javascript para esse site.</noscript>

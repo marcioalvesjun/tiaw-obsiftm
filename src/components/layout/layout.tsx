@@ -12,6 +12,13 @@ export function Layout() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    const computedBasename = (() => {
+      const isGithubPagesHost = window.location.hostname.endsWith("github.io");
+      if (!isGithubPagesHost) return "";
+      const [first] = window.location.pathname.split("/").filter(Boolean);
+      return first ? `/${first}` : "";
+    })();
+
     const handleGlobalClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       const anchor = target.closest('a');
@@ -22,7 +29,12 @@ export function Layout() {
         
         if (anchor.origin === window.location.origin) {
           e.preventDefault();
-          navigate(anchor.pathname + anchor.search + anchor.hash);
+          const normalizedPathname =
+            computedBasename && anchor.pathname.startsWith(computedBasename)
+              ? anchor.pathname.slice(computedBasename.length) || "/"
+              : anchor.pathname;
+
+          navigate(normalizedPathname + anchor.search + anchor.hash);
         }
       }
     };
