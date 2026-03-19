@@ -2,6 +2,7 @@
   "name": "cra-template-react-dsgov-stn-typescript",
   "version": "0.2.0",
   "private": false,
+  "proxy": "https://obsiftm.midi.upt.iftm.edu.br",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -45,6 +46,14 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "msw": "^2.12.13"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
     ]
   }
 }

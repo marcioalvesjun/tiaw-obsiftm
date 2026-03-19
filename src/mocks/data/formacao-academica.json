@@ -1,0 +1,474 @@
+[
+  {
+    "id": 219,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ADMINISTRACAO",
+    "qtde": 46
+  },
+  {
+    "id": 231,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "AGRONOMIA",
+    "qtde": 55
+  },
+  {
+    "id": 222,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ALIMENTOS",
+    "qtde": 13
+  },
+  {
+    "id": 216,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ANALISE DE SISTEMAS / ADS / SI",
+    "qtde": 19
+  },
+  {
+    "id": 237,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ARTES CENICAS",
+    "qtde": 2
+  },
+  {
+    "id": 263,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ARTES TEATRO",
+    "qtde": 1
+  },
+  {
+    "id": 249,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ARTES VISUAIS",
+    "qtde": 2
+  },
+  {
+    "id": 245,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "BIOMEDICINA",
+    "qtde": 2
+  },
+  {
+    "id": 225,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "CIENCIA DA COMPUTACAO",
+    "qtde": 47
+  },
+  {
+    "id": 236,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "CIENCIAS BIOLOGICAS",
+    "qtde": 41
+  },
+  {
+    "id": 218,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "CIENCIAS CONTABEIS",
+    "qtde": 9
+  },
+  {
+    "id": 266,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "CIENCIAS ECONOMICAS",
+    "qtde": 6
+  },
+  {
+    "id": 253,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "CIENCIAS SOCIAIS",
+    "qtde": 12
+  },
+  {
+    "id": 247,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "COMUNICACAO SOCIAL",
+    "qtde": 2
+  },
+  {
+    "id": 234,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "DIREITO",
+    "qtde": 19
+  },
+  {
+    "id": 235,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ECONOMIA",
+    "qtde": 2
+  },
+  {
+    "id": 261,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ECONOMIA DOMESTICA",
+    "qtde": 1
+  },
+  {
+    "id": 243,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "EDUCACAO ARTISTICA",
+    "qtde": 5
+  },
+  {
+    "id": 242,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "EDUCACAO FISICA",
+    "qtde": 15
+  },
+  {
+    "id": 248,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "EDUCACAO PROFISSIONAL E TECNOLOGICA",
+    "qtde": 21
+  },
+  {
+    "id": 255,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "EDUCACAO PROFISSIONAL E TECNOLOGICA FORMAC",
+    "qtde": 1
+  },
+  {
+    "id": 274,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA AMBIENTAL",
+    "qtde": 1
+  },
+  {
+    "id": 224,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA CIVIL",
+    "qtde": 12
+  },
+  {
+    "id": 269,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA DA COMPUTACAO",
+    "qtde": 1
+  },
+  {
+    "id": 264,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA DE CONTROLE E AUTOMACAO",
+    "qtde": 2
+  },
+  {
+    "id": 267,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA DE MATERIAIS",
+    "qtde": 1
+  },
+  {
+    "id": 273,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA DE MINAS",
+    "qtde": 3
+  },
+  {
+    "id": 223,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA DE PRODUCAO",
+    "qtde": 2
+  },
+  {
+    "id": 238,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA ELETRICA",
+    "qtde": 51
+  },
+  {
+    "id": 270,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA ELETRONICA",
+    "qtde": 1
+  },
+  {
+    "id": 258,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA MECANICA",
+    "qtde": 3
+  },
+  {
+    "id": 265,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA MECATRONICA",
+    "qtde": 2
+  },
+  {
+    "id": 262,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ENGENHARIA SANITARIA",
+    "qtde": 1
+  },
+  {
+    "id": 256,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ESTATISTICA",
+    "qtde": 1
+  },
+  {
+    "id": 252,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "FARMACIA",
+    "qtde": 1
+  },
+  {
+    "id": 233,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "FILOSOFIA",
+    "qtde": 16
+  },
+  {
+    "id": 221,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "FISICA",
+    "qtde": 27
+  },
+  {
+    "id": 271,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "FISIOTERAPIA",
+    "qtde": 1
+  },
+  {
+    "id": 217,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "FORMACAO DOCENTE",
+    "qtde": 72
+  },
+  {
+    "id": 240,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "GEOGRAFIA",
+    "qtde": 24
+  },
+  {
+    "id": 246,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "GESTAO AMBIENTAL",
+    "qtde": 2
+  },
+  {
+    "id": 230,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "HISTORIA",
+    "qtde": 24
+  },
+  {
+    "id": 268,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "INFORMATICA BIOMEDICA",
+    "qtde": 1
+  },
+  {
+    "id": 254,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "IRRIGACAO E DRENAGEM",
+    "qtde": 1
+  },
+  {
+    "id": 259,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "LATICINIOS",
+    "qtde": 2
+  },
+  {
+    "id": 229,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "LETRAS / LINGUAS",
+    "qtde": 75
+  },
+  {
+    "id": 244,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "LICENCIATURA EM COMPUTACAO",
+    "qtde": 2
+  },
+  {
+    "id": 260,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "LITERATURAS",
+    "qtde": 2
+  },
+  {
+    "id": 220,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "MATEMATICA",
+    "qtde": 42
+  },
+  {
+    "id": 226,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "MEDICINA VETERINARIA",
+    "qtde": 14
+  },
+  {
+    "id": 241,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "NUTRICAO",
+    "qtde": 2
+  },
+  {
+    "id": 250,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ODONTOLOGIA",
+    "qtde": 4
+  },
+  {
+    "id": 232,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "PEDAGOGIA",
+    "qtde": 19
+  },
+  {
+    "id": 251,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "PSICOLOGIA",
+    "qtde": 1
+  },
+  {
+    "id": 228,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "QUIMICA",
+    "qtde": 38
+  },
+  {
+    "id": 239,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "RELACOES INTERNACIONAIS",
+    "qtde": 1
+  },
+  {
+    "id": 272,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "TEOLOGIA",
+    "qtde": 1
+  },
+  {
+    "id": 257,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "TRADUCAO",
+    "qtde": 1
+  },
+  {
+    "id": 227,
+    "instituicaoID": null,
+    "instituicao": null,
+    "tipoFormacao": 1,
+    "nomeCurso": "ZOOTECNIA",
+    "qtde": 11
+  }
+]

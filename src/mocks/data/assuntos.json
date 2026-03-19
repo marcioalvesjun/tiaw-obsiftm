@@ -1,0 +1,602 @@
+[
+  {
+    "text": "ENSINO",
+    "value": "242",
+    "id": 71,
+    "qtde": 242
+  },
+  {
+    "text": "EDUCAÇÃO",
+    "value": "211",
+    "id": 18,
+    "qtde": 211
+  },
+  {
+    "text": "IFTM",
+    "value": "196",
+    "id": 558,
+    "qtde": 196
+  },
+  {
+    "text": "ANÁLISE",
+    "value": "134",
+    "id": 3698,
+    "qtde": 134
+  },
+  {
+    "text": "ESTUDO",
+    "value": "92",
+    "id": 4022,
+    "qtde": 92
+  },
+  {
+    "text": "CIÊNCIAS",
+    "value": "82",
+    "id": 2381,
+    "qtde": 82
+  },
+  {
+    "text": "AMBIENTAIS",
+    "value": "69",
+    "id": 4727,
+    "qtde": 69
+  },
+  {
+    "text": "DESENVOLVIMENTO",
+    "value": "68",
+    "id": 1674,
+    "qtde": 68
+  },
+  {
+    "text": "PRODUÇÃO",
+    "value": "65",
+    "id": 2592,
+    "qtde": 65
+  },
+  {
+    "text": "AVALIAÇÃO",
+    "value": "63",
+    "id": 490,
+    "qtde": 63
+  },
+  {
+    "text": "PANDEMIA",
+    "value": "58",
+    "id": 4074,
+    "qtde": 58
+  },
+  {
+    "text": "APRENDIZAGEM",
+    "value": "57",
+    "id": 652,
+    "qtde": 57
+  },
+  {
+    "text": "FORMAÇÃO",
+    "value": "55",
+    "id": 1260,
+    "qtde": 55
+  },
+  {
+    "text": "AVA",
+    "value": "55",
+    "id": 5623,
+    "qtde": 55
+  },
+  {
+    "text": "UBERABA",
+    "value": "53",
+    "id": 5049,
+    "qtde": 53
+  },
+  {
+    "text": "EXPERIÊNCIA",
+    "value": "52",
+    "id": 4752,
+    "qtde": 52
+  },
+  {
+    "text": "TECNOLOGIA",
+    "value": "51",
+    "id": 673,
+    "qtde": 51
+  },
+  {
+    "text": "QUALIDADE",
+    "value": "47",
+    "id": 680,
+    "qtde": 47
+  },
+  {
+    "text": "LITERATURA",
+    "value": "45",
+    "id": 372,
+    "qtde": 45
+  },
+  {
+    "text": "EXTENSÃO",
+    "value": "43",
+    "id": 770,
+    "qtde": 43
+  },
+  {
+    "text": "COVID-19",
+    "value": "42",
+    "id": 182,
+    "qtde": 42
+  },
+  {
+    "text": "PROJETO",
+    "value": "41",
+    "id": 2155,
+    "qtde": 41
+  },
+  {
+    "text": "INTEGRADO",
+    "value": "39",
+    "id": 4886,
+    "qtde": 39
+  },
+  {
+    "text": "DESAFIOS",
+    "value": "39",
+    "id": 4203,
+    "qtde": 39
+  },
+  {
+    "text": "RELATO",
+    "value": "39",
+    "id": 4751,
+    "qtde": 39
+  },
+  {
+    "text": "APLICAÇÃO",
+    "value": "38",
+    "id": 2146,
+    "qtde": 38
+  },
+  {
+    "text": "SOLO",
+    "value": "37",
+    "id": 2635,
+    "qtde": 37
+  },
+  {
+    "text": "PESQUISA",
+    "value": "37",
+    "id": 1491,
+    "qtde": 37
+  },
+  {
+    "text": "HISTÓRIA",
+    "value": "37",
+    "id": 979,
+    "qtde": 37
+  },
+  {
+    "text": "CULTURA",
+    "value": "36",
+    "id": 1420,
+    "qtde": 36
+  },
+  {
+    "text": "PROJETOS",
+    "value": "36",
+    "id": 3526,
+    "qtde": 36
+  },
+  {
+    "text": "CERRADO",
+    "value": "35",
+    "id": 724,
+    "qtde": 35
+  },
+  {
+    "text": "EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA",
+    "value": "34",
+    "id": 479,
+    "qtde": 34
+  },
+  {
+    "text": "BRASIL",
+    "value": "32",
+    "id": 437,
+    "qtde": 32
+  },
+  {
+    "text": "CIÊNCIA",
+    "value": "31",
+    "id": 1949,
+    "qtde": 31
+  },
+  {
+    "text": "SOCIEDADE",
+    "value": "31",
+    "id": 1914,
+    "qtde": 31
+  },
+  {
+    "text": "TRIÂNGULO MINEIRO",
+    "value": "31",
+    "id": 3019,
+    "qtde": 31
+  },
+  {
+    "text": "INCLUSÃO",
+    "value": "30",
+    "id": 489,
+    "qtde": 30
+  },
+  {
+    "text": "EXPERIÊNCIAS",
+    "value": "30",
+    "id": 5395,
+    "qtde": 30
+  },
+  {
+    "text": "QUÍMICA",
+    "value": "29",
+    "id": 3257,
+    "qtde": 29
+  },
+  {
+    "text": "RESÍDUOS",
+    "value": "29",
+    "id": 1079,
+    "qtde": 29
+  },
+  {
+    "text": "INSTITUTOS FEDERAIS",
+    "value": "28",
+    "id": 1964,
+    "qtde": 28
+  },
+  {
+    "text": "ALIMENTOS",
+    "value": "28",
+    "id": 514,
+    "qtde": 28
+  },
+  {
+    "text": "CURSO",
+    "value": "28",
+    "id": 1649,
+    "qtde": 28
+  },
+  {
+    "text": "ENSINO MÉDIO INTEGRADO",
+    "value": "28",
+    "id": 449,
+    "qtde": 28
+  },
+  {
+    "text": "CURSOS",
+    "value": "27",
+    "id": 4882,
+    "qtde": 27
+  },
+  {
+    "text": "ESTUDO DE CASO",
+    "value": "27",
+    "id": 1832,
+    "qtde": 27
+  },
+  {
+    "text": "PANDEMIA DA COVID-19",
+    "value": "27",
+    "id": 4858,
+    "qtde": 27
+  },
+  {
+    "text": "PERSPECTIVAS",
+    "value": "26",
+    "id": 4207,
+    "qtde": 26
+  },
+  {
+    "text": "PLANTAS",
+    "value": "26",
+    "id": 1862,
+    "qtde": 26
+  },
+  {
+    "text": "INTELIGÊNCIA ARTIFICIAL",
+    "value": "24",
+    "id": 47,
+    "qtde": 24
+  },
+  {
+    "text": "FILOSOFIA",
+    "value": "24",
+    "id": 1155,
+    "qtde": 24
+  },
+  {
+    "text": "INTERDISCIPLINARIDADE",
+    "value": "24",
+    "id": 99,
+    "qtde": 24
+  },
+  {
+    "text": "ÁREA",
+    "value": "24",
+    "id": 3931,
+    "qtde": 24
+  },
+  {
+    "text": "IMPLANTAÇÃO",
+    "value": "24",
+    "id": 4884,
+    "qtde": 24
+  },
+  {
+    "text": "GEOPROCESSAMENTO",
+    "value": "23",
+    "id": 827,
+    "qtde": 23
+  },
+  {
+    "text": "ESCOLA",
+    "value": "23",
+    "id": 1558,
+    "qtde": 23
+  },
+  {
+    "text": "ENSINO REMOTO",
+    "value": "23",
+    "id": 4129,
+    "qtde": 23
+  },
+  {
+    "text": "ATERRO",
+    "value": "23",
+    "id": 4308,
+    "qtde": 23
+  },
+  {
+    "text": "GESTÃO",
+    "value": "22",
+    "id": 1554,
+    "qtde": 22
+  },
+  {
+    "text": "DESEMPENHO",
+    "value": "22",
+    "id": 1217,
+    "qtde": 22
+  },
+  {
+    "text": "CAMPUS UBERABA",
+    "value": "22",
+    "id": 4980,
+    "qtde": 22
+  },
+  {
+    "text": "EDUCAÇÃO PROFISSIONAL",
+    "value": "22",
+    "id": 1119,
+    "qtde": 22
+  },
+  {
+    "text": "CONTEXTO",
+    "value": "22",
+    "id": 1418,
+    "qtde": 22
+  },
+  {
+    "text": "ESTUDANTES",
+    "value": "21",
+    "id": 3098,
+    "qtde": 21
+  },
+  {
+    "text": "FILOSOFIA POLÍTICA",
+    "value": "21",
+    "id": 938,
+    "qtde": 21
+  },
+  {
+    "text": "AMBIENTAL",
+    "value": "21",
+    "id": 4920,
+    "qtde": 21
+  },
+  {
+    "text": "DOCENTE",
+    "value": "20",
+    "id": 358,
+    "qtde": 20
+  },
+  {
+    "text": "RESÍDUOS SÓLIDOS",
+    "value": "20",
+    "id": 1093,
+    "qtde": 20
+  },
+  {
+    "text": "AÇÕES",
+    "value": "20",
+    "id": 3757,
+    "qtde": 20
+  },
+  {
+    "text": "ENSINO E APRENDIZAGEM",
+    "value": "20",
+    "id": 1590,
+    "qtde": 20
+  },
+  {
+    "text": "MODEL",
+    "value": "20",
+    "id": 3822,
+    "qtde": 20
+  },
+  {
+    "text": "DIREITO",
+    "value": "20",
+    "id": 740,
+    "qtde": 20
+  },
+  {
+    "text": "TECNOLOGIAS",
+    "value": "20",
+    "id": 331,
+    "qtde": 20
+  },
+  {
+    "text": "PROJETOS DE EXTENSÃO",
+    "value": "20",
+    "id": 509,
+    "qtde": 20
+  },
+  {
+    "text": "DIGITAL",
+    "value": "19",
+    "id": 2156,
+    "qtde": 19
+  },
+  {
+    "text": "ESCOLAR",
+    "value": "19",
+    "id": 1419,
+    "qtde": 19
+  },
+  {
+    "text": "PLANTIO",
+    "value": "19",
+    "id": 1611,
+    "qtde": 19
+  },
+  {
+    "text": "INOVAÇÃO",
+    "value": "19",
+    "id": 157,
+    "qtde": 19
+  },
+  {
+    "text": "INSTITUTO FEDERAL",
+    "value": "19",
+    "id": 3028,
+    "qtde": 19
+  },
+  {
+    "text": "CONTROLE",
+    "value": "19",
+    "id": 199,
+    "qtde": 19
+  },
+  {
+    "text": "FORMAÇÃO DOCENTE",
+    "value": "18",
+    "id": 566,
+    "qtde": 18
+  },
+  {
+    "text": "CULTIVARES",
+    "value": "18",
+    "id": 4685,
+    "qtde": 18
+  },
+  {
+    "text": "PRODUCTION",
+    "value": "18",
+    "id": 1628,
+    "qtde": 18
+  },
+  {
+    "text": "POTENCIAL",
+    "value": "18",
+    "id": 5048,
+    "qtde": 18
+  },
+  {
+    "text": "IDENTIFICAÇÃO",
+    "value": "18",
+    "id": 2882,
+    "qtde": 18
+  },
+  {
+    "text": "DIAGNÓSTICO",
+    "value": "18",
+    "id": 612,
+    "qtde": 18
+  },
+  {
+    "text": "PLANTIO DIRETO",
+    "value": "18",
+    "id": 290,
+    "qtde": 18
+  },
+  {
+    "text": "USO E OCUPAÇÃO DO SOLO",
+    "value": "18",
+    "id": 1023,
+    "qtde": 18
+  },
+  {
+    "text": "SOJA",
+    "value": "18",
+    "id": 1781,
+    "qtde": 18
+  },
+  {
+    "text": "CIENTÍFICA",
+    "value": "18",
+    "id": 5588,
+    "qtde": 18
+  },
+  {
+    "text": "MILHO",
+    "value": "18",
+    "id": 507,
+    "qtde": 18
+  },
+  {
+    "text": "SISTEMAS INTEGRADOS",
+    "value": "17",
+    "id": 2132,
+    "qtde": 17
+  },
+  {
+    "text": "ARTE",
+    "value": "17",
+    "id": 771,
+    "qtde": 17
+  },
+  {
+    "text": "PROFESSORES",
+    "value": "17",
+    "id": 981,
+    "qtde": 17
+  },
+  {
+    "text": "MATEMÁTICA",
+    "value": "16",
+    "id": 1145,
+    "qtde": 16
+  },
+  {
+    "text": "AVANÇOS",
+    "value": "16",
+    "id": 4205,
+    "qtde": 16
+  },
+  {
+    "text": "SAÚDE",
+    "value": "16",
+    "id": 3274,
+    "qtde": 16
+  },
+  {
+    "text": "CIÊNCIA E TECNOLOGIA",
+    "value": "16",
+    "id": 2333,
+    "qtde": 16
+  },
+  {
+    "text": "CONTRIBUIÇÕES",
+    "value": "16",
+    "id": 4947,
+    "qtde": 16
+  }
+]

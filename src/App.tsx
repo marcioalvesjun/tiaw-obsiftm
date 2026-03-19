@@ -5,6 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import { AuthProvider } from 'react-oidc-context';
 import userManagerSettings from './config/userManagerSettings';
 import router from './config/router';
+import './styles/govbr-overrides.css';
 
 
 function App() {

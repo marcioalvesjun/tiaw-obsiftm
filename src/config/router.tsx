@@ -1,7 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "../components/Layout";
-import Principal from "../pages";
-import Busca from "../pages/Busca/Busca";
+import { Layout } from "../components";
+import { 
+  About, 
+  Home,
+  SearchByCampusBibliographic,
+  SearchByPeriodBibliographic,
+  SearchByProfessorBibliographic,
+  SearchByCampusOrientations,
+  SearchByPeriodOrientations,
+  SearchByCampusInnovation,
+  SearchByPeriodInnovation
+} from "../pages";
 
 const router = createBrowserRouter([
   {
@@ -9,19 +18,50 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <>
-          <Principal />
-        </>,
+        element: (
+          <>
+            <Home />
+          </>
+        ),
       },
       {
-        path: "/busca",
-        element: <>
-          <Busca />
-        </>,
-      }
-    ]
-  }
-
+        path: "/sobre",
+        element: (
+          <>
+            <About />
+          </>
+        ),
+      },
+      {
+        path: "/indicadores/producao-bibliografica/consulta-por-campus",
+        element: <SearchByCampusBibliographic />,
+      },
+      {
+        path: "/indicadores/producao-bibliografica/consulta-por-periodo",
+        element: <SearchByPeriodBibliographic />,
+      },
+      {
+        path: "/indicadores/producao-bibliografica/consulta-por-docente",
+        element: <SearchByProfessorBibliographic />,
+      },
+      {
+        path: "/indicadores/orientacoes/consulta-por-campus",
+        element: <SearchByCampusOrientations />,
+      },
+      {
+        path: "/indicadores/orientacoes/consulta-por-periodo",
+        element: <SearchByPeriodOrientations />,
+      },
+      {
+        path: "/indicadores/inovacao/consulta-por-campus",
+        element: <SearchByCampusInnovation />,
+      },
+      {
+        path: "/indicadores/inovacao/consulta-por-periodo",
+        element: <SearchByPeriodInnovation />,
+      },
+    ],
+  },
 ]);
 
 export default router;

@@ -1,0 +1,19 @@
+/* 
+ * Global overrides for react-dsgov components.
+ * These overrides ensure the menu renders below the header on all screen sizes.
+ */
+
+/* Ensure header stays above the menu overlay */
+.br-header {
+  position: relative;
+  z-index: 1050;
+}
+
+/* Push menu container below the header instead of covering the full viewport */
+.br-menu.active .menu-container {
+  top: var(--header-height, 80px) !important;
+}
+
+.br-menu .menu-panel {
+  height: calc(100vh - var(--header-height, 80px));
+}

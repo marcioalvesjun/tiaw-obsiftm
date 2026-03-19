@@ -1,0 +1,26 @@
+[
+  {
+    "text": "1",
+    "value": "Graduação",
+    "id": 1,
+    "qtde": 1
+  },
+  {
+    "text": "16",
+    "value": "Especialização",
+    "id": 2,
+    "qtde": 16
+  },
+  {
+    "text": "209",
+    "value": "Mestrado",
+    "id": 3,
+    "qtde": 209
+  },
+  {
+    "text": "335",
+    "value": "Doutorado",
+    "id": 4,
+    "qtde": 335
+  }
+]
