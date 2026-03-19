@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Layout } from "../components";
 import { 
   About, 
@@ -14,9 +14,13 @@ import {
 
 const computedBasename = (() => {
   if (typeof window === "undefined") return undefined;
+  const isGithubPagesHost = window.location.hostname.endsWith("github.io");
+  if (!isGithubPagesHost) return undefined;
   const [first] = window.location.pathname.split("/").filter(Boolean);
   return first ? `/${first}` : undefined;
 })();
+
+const indicadoresDefaultPath = "/indicadores/producao-bibliografica/consulta-por-periodo";
 
 const router = createBrowserRouter(
   [
@@ -38,6 +42,22 @@ const router = createBrowserRouter(
             <About />
           </>
         ),
+      },
+      {
+        path: "/indicadores",
+        element: <Navigate to={indicadoresDefaultPath} replace />,
+      },
+      {
+        path: "/indicadores/producao-bibliografica",
+        element: <Navigate to={indicadoresDefaultPath} replace />,
+      },
+      {
+        path: "/indicadores/orientacoes",
+        element: <Navigate to={indicadoresDefaultPath} replace />,
+      },
+      {
+        path: "/indicadores/inovacao",
+        element: <Navigate to={indicadoresDefaultPath} replace />,
       },
       {
         path: "/indicadores/producao-bibliografica/consulta-por-campus",

@@ -3,6 +3,8 @@ import { Menu as MenuGov } from "react-dsgov";
 export function Menu() {
   const computedBasename = (() => {
     if (typeof window === "undefined") return "";
+    const isGithubPagesHost = window.location.hostname.endsWith("github.io");
+    if (!isGithubPagesHost) return "";
     const [first] = window.location.pathname.split("/").filter(Boolean);
     return first ? `/${first}` : "";
   })();
